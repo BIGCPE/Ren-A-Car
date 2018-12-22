@@ -1,0 +1,60 @@
+<ion-header no-border>
+    <ion-toolbar>
+        <ion-title></ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content fullscreen>
+    <div class="text-seacr">ค้นหารถ</div>
+    <ion-searchbar placeholder="สถานที่รับรถ"></ion-searchbar>
+    <ion-item class="aitemd">
+        <ion-icon name="time"></ion-icon>
+        <ion-label>
+            <ion-datetime 
+                [(ngModel)]="date1"
+                displayFormat="DDDD MMM D, YYYY" 
+                dayNames="วันอาทิตย์,วันจันทร์,วันอังคาร,วันพุธ,วันพฤหัส,วันศุกร์,วันเสาร์" 
+                monthNames='มกราคม,กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม' 
+                monthShortNames='มกราคม,กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม' 
+                min="2018" 
+                max="2022" 
+                value="2018-12-22">
+            </ion-datetime>
+        </ion-label>
+    </ion-item>
+    <ion-item class="aitemd">
+        <ion-icon name="time"></ion-icon>
+        <ion-label>
+            <ion-datetime 
+                [(ngModel)]="date2"
+                displayFormat="DDDD MMM D, YYYY" 
+                dayNames="วันอาทิตย์,วันจันทร์,วันอังคาร,วันพุธ,วันพฤหัส,วันศุกร์,วันเสาร์" 
+                monthNames='มกราคม,กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม' 
+                monthShortNames='มกราคม,กุมภาพันธ์, มีนาคม, เมษายน, พฤษภาคม, มิถุนายน, กรกฎาคม, สิงหาคม, กันยายน, ตุลาคม, พฤศจิกายน, ธันวาคม' 
+                min="2018" 
+                max="2022" 
+                value="2018-12-22">
+            </ion-datetime>
+        </ion-label>
+    </ion-item>
+    <!-- <div class="b-date">
+        <div class="date">
+            <div class="box-date" (click)="showdate()">
+                <h1>{{date1.day_n}}</h1>
+                <p class="d">{{date1.day}} | {{date1.month}}</p>
+                <p class="t">เวลา : {{date1.time}}</p>
+            </div>
+            <div class="line"><ion-icon name="arrow-round-forward"></ion-icon></div>
+            <div class="box-date">
+                <h1>{{date2.day_n}}</h1>
+                <p class="d">{{date2.day}} | {{date2.month}}</p>
+                <p class="t">เวลา : {{date2.time}}</p>
+            </div>
+        </div>
+    </div> -->
+    <div class="bv">
+         <button class="btn-search" (click)="search()">ค้นหา</button>
+    </div>
+    
+    
+    
+</ion-content>

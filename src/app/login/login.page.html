@@ -1,0 +1,15 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content fullscreen>
+  <div class="text-head">ยินดีต้อนรับลงทะเบียนเข้าใช้งานได้เลย</div>
+  <div class="login-form">
+      <input type="text" class="login-input" [(ngModel)]="email" placeholder="อีเมล">
+      <input type="password" class="login-input" [(ngModel)]="password" placeholder="รหัสผ่าน">
+      <button class="login-btn" (click)="loing()">เข้าสู่ระบบ</button>
+      <p>หรือ</p>
+      <p>ยังไม่ได้เป็นสมาชิก <a (click)="register()">ลงทะเบียน</a></p>
+  </div>  
+</ion-content>

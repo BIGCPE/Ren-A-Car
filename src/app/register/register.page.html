@@ -1,0 +1,16 @@
+<ion-header no-border padding>
+  <ion-buttons slot="start">
+    <ion-back-button></ion-back-button>
+  </ion-buttons>
+</ion-header>
+<ion-content fullscreen>
+  <!-- <ion-icon name="arrow-round-back" class="back" (click)="back()"></ion-icon> -->
+  <div class="text-head">ลงทะเบียนใช้งาน</div>
+  <div class="login-form">
+      <input type="text" class="login-input" [(ngModel)]="email" placeholder="อีเมล">
+      <input type="password" class="login-input" [(ngModel)]="password" placeholder="รหัสผ่าน">
+      <button class="login-btn" (click)="register()">สมัครสมาชิก</button>
+  </div>  
+
+</ion-content>
+  

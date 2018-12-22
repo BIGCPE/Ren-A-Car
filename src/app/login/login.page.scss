@@ -1,0 +1,53 @@
+:host {
+    ion-content {
+      --background: url('../../assets/image/bg1.jpg') no-repeat 100%;
+      --background-size: 100% 100%;
+    }
+    ion-toolbar{
+        --background: transparent;
+        --ion-color-base: transparent !important;
+    }
+}
+
+.text-head{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: #1C1C1C;
+}
+.login-form{
+    text-align: center;
+    p{
+        color: #ccc;
+        font-size: 14px;
+    }
+}
+.login-input{
+    padding: 5px;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 0px 5px #cccccc;
+    margin: 5px;
+    outline-style: none;
+}
+
+.login-btn{
+    margin: 5px;
+    padding: 10px;
+    background-color: darkblue;
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    outline-style: none;
+}
+
+.bg-im{
+    height: 100%;
+    background-image: url("../../assets/bg.jpg");
+    background-size: 100% 100%;
+}

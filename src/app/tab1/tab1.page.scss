@@ -1,0 +1,87 @@
+.welcome-card ion-img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+.text-seacr{
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #3880ff;
+}
+
+:host {
+  ion-content {
+    --background: url('../../assets/bg.jpg') no-repeat 100%;
+    --background-size: 100% 100%;
+  }
+  ion-toolbar{
+      --background: transparent;
+      --ion-color-base: transparent !important;
+  }
+}
+.b-date{
+  margin: 10px;
+  .date{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    width: 320px;
+    height: 130px;
+    .box-date{
+      width: 130px;
+      height: 130px;
+      background-color: #fff;
+      border: 1px solid #9e9e9e;
+      border-radius: 5px;
+      float: left;
+      left: 0;
+      h1{margmargin: 10px;in: 10px;
+        font-size: 40px;
+        margin: 10px;
+      }
+      p.d{
+        font-size: 14px;
+        margin: 0;
+        border-bottom: 1px solid #9e9e9e;
+        color: #757575;
+      }
+      p.t{
+        margin: 0;
+        font-size: 20px;
+      }
+    }
+    .line{
+      padding-top: 50px;
+      width: 60px;
+      height: 100px;
+      float: left;
+      color: #3880ff;
+      font-size: 30px;
+    }
+  }
+}
+
+.bv{
+  text-align: center;
+  padding: 20px;
+}
+.btn-search{
+  margin: 20px;;
+  padding: 10px;
+  height: 40px;
+  width: 320px;
+  background-color: #3880ff;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 20px;margin: auto;
+}
+
+.datex{
+  margin: 10px;
+  background-color: #fff;
+}
+.aitemd{
+  margin: 10px;
+  border-radius: 5px;
+}
